@@ -1,3 +1,18 @@
 {
-  "generator-jasmine": {}
+  "generator-jasmine": {},
+  "generator-fountain-react": {
+    "version": "1.0.0",
+    "props": {
+      "resolved": "/Users/blendrix/.node_modules_global/lib/node_modules/generator-fountain-react/generators/app/index.js",
+      "namespace": "fountain-react:app",
+      "_": [],
+      "framework": "react",
+      "modules": "webpack",
+      "js": "babel",
+      "css": "scss",
+      "ci": [],
+      "sample": "hello",
+      "router": "none"
+    }
+  }
 }
