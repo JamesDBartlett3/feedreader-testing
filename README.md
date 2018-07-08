@@ -23,12 +23,12 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 
 # How will I complete this project?
 
-- [x] 1. Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
-- [x] 2. Take the JavaScript Testing [course](https://www.udacity.com/course/ud549)
-- [x] 3. Download the [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader).
-- [x] 4. Review the functionality of the application within your browser.
-- [x] 5. Explore the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works.
-- [x] 6. Explore the Jasmine spec file in **./jasmine/spec/feedreader.js** and review the [Jasmine documentation](http://jasmine.github.io).
+- [x] 1. ~~Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)~~
+- [x] 2. ~~Take the JavaScript Testing [course](https://www.udacity.com/course/ud549)~~
+- [x] 3. ~~Download the [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader).~~
+- [x] 4. ~~Review the functionality of the application within your browser.~~
+- [x] 5. ~~Explore the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works.~~
+- [x] 6. ~~Explore the Jasmine spec file in **./jasmine/spec/feedreader.js** and review the [Jasmine documentation](http://jasmine.github.io).~~
 - [ ] 7. Edit the `allFeeds` variable in **./js/app.js** to make the provided test fail and see how Jasmine visualizes this failure in your application.
 - [ ] 8. Return the `allFeeds` variable to a passing state.
 - [ ] 9. Write a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined and that the URL is not empty.
