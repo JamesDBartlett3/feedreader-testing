@@ -13,6 +13,7 @@ $(function() {
     * a related set of tests. This suite is all about the RSS
     * feeds definitions, the allFeeds variable in our application.
     */
+
     describe('RSS Feeds', () => {
         /* This is our first test - it tests to make sure that the
          * allFeeds variable has been defined and that it is not
@@ -54,7 +55,7 @@ $(function() {
        * hiding/showing of the menu element.
        */
 
-        it('element is hidden by default', () => {
+        it('element is hidden by default.', () => {
           expect($('body').attr('class')).toBe('menu-hidden');
         });
 
@@ -63,14 +64,20 @@ $(function() {
         * should have two expectations: does the menu display when
         * clicked and does it hide when clicked again.
         */
-
-
-
+        it('should become visible when clicked, and then invisible when clicked again.', () => {
+          let clickIcon = () => {
+            $('.icon-list').click();
+          };
+          expect($('body').hasClass('menu-hidden')).toBe(true);
+          clickIcon();
+          expect($('body').hasClass('menu-hidden')).toBe(false);
+          clickIcon();
+        });
       });
 
 /* TODO: Write a new test suite named "Initial Entries" */
 
-
+    describe('Initial Entries', () => {
 
     /* TODO: Write a test that ensures when the loadFeed
      * function is called and completes its work, there is at least
@@ -78,6 +85,11 @@ $(function() {
      * Remember, loadFeed() is asynchronous so this test will require
      * the use of Jasmine's beforeEach and asynchronous done() function.
      */
+
+      it('After loadFeed is called and finishes, the .feed container should have at least one .entry element.', () => {
+       
+      });
+     });
 
 /* TODO: Write a new test suite named "New Feed Selection" */
 
