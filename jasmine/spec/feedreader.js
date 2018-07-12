@@ -21,8 +21,9 @@ $(function() {
          */
        it('have defined URLs, and they are not empty.', () => {
          allFeeds.forEach(i => { // for each feed in allFeeds,
-           expect(i).toBeDefined(); // expect the feed to be defined,
-           expect(i.length).not.toBe(0); // and its length not to be 0.
+           let url = i.url;
+           expect(url).toBeDefined(); // expect the feed to be defined,
+           expect(url.length).not.toBe(0); // and its length not to be 0.
          });
        });
 
@@ -46,7 +47,7 @@ $(function() {
        * hidden by default.
        */
       it('element is hidden by default.', () => {
-        expect($('body').attr('class')).toBe('menu-hidden'); // expect body to have CSS class 'menu-hidden' by default
+        expect($('body').hasClass('menu-hidden')).toBe(true); // expect body to have CSS class 'menu-hidden'
       });
 
       /* Ensure the menu changes
@@ -91,9 +92,9 @@ $(function() {
       let feed0, feed1;
       beforeEach(done => { // before each test in this suite,
         loadFeed(0, () => { // set up async callback,
-          feed0 = $('.feed');
+          feed0 = $('.feed').html();
           loadFeed(1, () => { // and load feed1 within the feed0 function to make sure it returns with data
-            feed1 = $('.feed');
+            feed1 = $('.feed').html();
             done();
           });
           done();
