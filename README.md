@@ -1,5 +1,6 @@
 # Table of Contents
 * [Project Overview](#project-overview)
+* [How To Run This Code](#how-to-run-this-code)
 * [Why this Project?](#why-this-project)
 * [What will I learn?](#what-will-i-learn)
 * [How will this help my career?](#how-will-this-help-my-career)
@@ -7,7 +8,13 @@
 
 # Project Overview
 
-In this project I was given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, that developer is no longer around, which means the task fell to me to complete the test suite and make sure the app passes all the tests with flying colors.
+In this project I was given a web-based application that reads RSS feeds, along with the following back-story:
+The original developer of this application clearly saw the value in testing, they already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite!
+Unfortunately, that developer is no longer around, which means the task falls to you to complete the test suite and make sure the app passes all the tests with flying colors.
+
+## How To Run This Code
+If you want to see this code running in a browser as intended, [check it out on GitHub Pages](https://jamesdbartlett.github.io/feedreader-testing/).  
+Or, if you'd prefer to download the code and run/tweak it yourself, feel free to [download it directly](https://github.com/JamesDBartlett/feedreader-testing/archive/master.zip), or clone this repo by typing the following Git command into your command line: `git clone https://github.com/JamesDBartlett/feedreader-testing.git`
 
 
 ## Why this Project?
@@ -50,6 +57,6 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 - [x] 16. ~~Write a test that ensures when a new feed is loaded by the `loadFeed` function that the content actually changes.~~
 - [x] 17. ~~No test should be dependent on the results of another.~~
 - [x] 18. ~~Callbacks should be used to ensure that feeds are loaded before they are tested.~~
-- [ ] 19. Implement error handling for undefined variables and out-of-bound array access.
+- [x] 19. ~~Implement error handling for undefined variables and out-of-bound array access.~~
 - [x] 20. ~~When complete - all of your tests should pass.~~
-- [ ] 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+- [x] 21. ~~Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.~~
