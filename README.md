@@ -13,9 +13,11 @@ The original developer of this application clearly saw the value in testing, the
 Unfortunately, that developer is no longer around, which means the task falls to you to complete the test suite and make sure the app passes all the tests with flying colors.
 
 ## How To Run This Code
-If you want to see this code running in a browser as intended, [check it out on GitHub Pages](https://jamesdbartlett.github.io/feedreader-testing/).  
-Or, if you'd prefer to download the code and run/tweak it yourself, feel free to [download it directly](https://github.com/JamesDBartlett/feedreader-testing/archive/master.zip), or clone this repo by typing the following Git command into your command line:  
+If you want to see this code running in a browser as intended, here are some options:
+* [Check it out on GitHub Pages](https://jamesdbartlett.github.io/feedreader-testing/) (easiest way).  
+* Clone this repo by typing the following Git command into your command line: (recommended way)  
 `git clone https://github.com/JamesDBartlett/feedreader-testing.git`
+* [Download the code directly](https://github.com/JamesDBartlett/feedreader-testing/archive/master.zip), unzip it, and then open the index.html file in your browser of choice (not recommended). 
 
 
 ## Why this Project?
