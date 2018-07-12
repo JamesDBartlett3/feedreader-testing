@@ -1,3 +1,9 @@
+// Encapsulate all JS on the page in an Immediately Invoked Function Expression,
+// or "IIFE" for short. This ensures that it will wait for the DOM to load
+// before it tries to execute, which is important in this context because
+// several of our tests depend on the presence of certain DOM elements,
+// and we don't want them to fail just because the page hadn't finished
+// loading yet.
 $(function() {
     describe('RSS Feeds', () => {
 
