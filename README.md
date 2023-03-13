@@ -14,10 +14,10 @@ Unfortunately, that developer is no longer around, which means the task falls to
 
 ## How To Run This Code
 If you want to see this code running in a browser as intended, here are some options:
-* [Check it out on GitHub Pages](https://jamesdbartlett.github.io/feedreader-testing/) (easiest way).  
+* [Check it out on GitHub Pages](https://jamesdbartlett3.github.io/feedreader-testing/) (easiest way).  
 * Clone this repo by typing the following Git command into your command line: (recommended way)  
-`git clone https://github.com/JamesDBartlett/feedreader-testing.git`
-* [Download the code directly](https://github.com/JamesDBartlett/feedreader-testing/archive/master.zip), unzip it, and then open the index.html file in your browser of choice (not recommended). 
+`git clone https://github.com/JamesDBartlett3/feedreader-testing.git`
+* [Download the code directly](https://github.com/JamesDBartlett3/feedreader-testing/archive/master.zip), unzip it, and then open the index.html file in your browser of choice (not recommended). 
 
 
 ## Why this Project?
